@@ -4,7 +4,7 @@
 " Appended:	03/17/2018	
 
 " Section Pathogen {{{
-
+execute pathogen#infect()
 
 " }}}
 
