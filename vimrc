@@ -37,9 +37,26 @@ set t_Co=256                " enables 256-color mode
 " colorscheme torte
 
 " Installed Colorschemes
+" colorscheme 256_noir
+colorscheme neuromancer
+" colorscheme matrix
+" colorscheme eva01
+" colorscheme southernlights
+" colorscheme space-vim-dark
+" colorscheme phosphor
+" colorscheme shadesofamber
+" colorscheme abstract.vim
+" colorscheme abstract.vim
+" colorscheme abstract.vim
+" colorscheme abstract.vim
+" colorscheme abstract.vim
+" colorscheme abstract.vim
+" colorscheme abstract.vim
+" colorscheme abstract.vim
+" colorscheme abstract.vim
 " colorscheme atom-dark-256	" atom editor 256 colors
 " colorscheme atom-dark     " atom editor
-colorscheme neon          " a hella-bright colorscheme
+" colorscheme neon          " a hella-bright colorscheme
 " colorscheme autumn
 " colorscheme breeze
 " colorscheme fine_blue
