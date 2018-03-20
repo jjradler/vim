@@ -38,14 +38,14 @@ set t_Co=256                " enables 256-color mode
 
 " Installed Colorschemes
 " colorscheme 256_noir
-colorscheme neuromancer
+" colorscheme neuromancer
 " colorscheme matrix
 " colorscheme eva01
 " colorscheme southernlights
 " colorscheme space-vim-dark
 " colorscheme phosphor
 " colorscheme shadesofamber
-" colorscheme abstract.vim
+colorscheme cyberpunk
 " colorscheme abstract.vim
 " colorscheme abstract.vim
 " colorscheme abstract.vim
