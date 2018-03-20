@@ -1,6 +1,6 @@
 Installation:
 
-    git clone git:
+    git clone git: https://github.com/jjradler/vim.git
 
 Create symlinks:
 
