@@ -1,10 +1,27 @@
+<<<<<<< HEAD
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhist_cnt =8
+=======
+let g:netrw_dirhist_cnt =6
+>>>>>>> 78956f163cd427408ddf2eb1e5d8e57753103cc8
 let g:netrw_dirhist_1='/Users/josephj.radler/.vim/colors'
 let g:netrw_dirhist_2='/Users/josephj.radler/.vim/awesome-vim-colorschemes'
 let g:netrw_dirhist_3='/Users/josephj.radler/.vim'
 let g:netrw_dirhist_4='/Users/josephj.radler/.vim/undo'
 let g:netrw_dirhist_5='/home/jjradler/.profile/bash'
+<<<<<<< HEAD
 let g:netrw_dirhist_6='/Users/jjradler/.vim'
 let g:netrw_dirhist_7='/Users/jjradler/.vim/autoload'
 let g:netrw_dirhist_8='/Users/jjradler/.vim/.git'
+=======
+let g:netrw_dirhist_6='/Users/josephj.radler/.vim/.git'
+let g:netrw_dirhist_1='/home/jjradler/local/ARPACK'
+let g:netrw_dirhist_2='/home/jjradler/local/ARPACK/UTIL'
+let g:netrw_dirhist_3='/home/jjradler/local/ARPACK'
+let g:netrw_dirhist_4='/home/jjradler/local/ARPACK/ARMAKES'
+let g:netrw_dirhist_5='/home/jjradler/local/ARPACK'
+let g:netrw_dirhist_6='/home/jjradler/development/dftbplus/_build'
+let g:netrw_dirhist_7='/home/jjradler/.vim'
+let g:netrw_dirhist_8='/home/jjradler/.vim/bundle'
+let g:netrw_dirhist_9='/home/jjradler/.vim/bundle/awesome-vim-colorschemes'
+>>>>>>> 78956f163cd427408ddf2eb1e5d8e57753103cc8

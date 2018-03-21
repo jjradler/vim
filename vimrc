@@ -82,7 +82,7 @@ set t_Co=256                " enables 256-color mode
 " colorscheme chroma
 " colorscheme cobalt
 " colorscheme codedark
-" colorscheme cyberpunk
+" colorscheme cyberpunk                      "cmyk, has an 80's cyberpunk feel
 " colorscheme cytosimConfig
 " colorscheme dante
 " colorscheme dark_eyes                      "greens, browns, reds
@@ -130,7 +130,7 @@ set t_Co=256                " enables 256-color mode
 " colorscheme materialbox
 " colorscheme materialmonokai
 " colorscheme matrix                "gray comments, bright color markup
-" colorscheme meta5                    "high contrast code, low contrast comments
+colorscheme meta5                    "high contrast code, low contrast comments
 " colorscheme minimalist
 " colorscheme molokai
 " colorscheme molokayo
