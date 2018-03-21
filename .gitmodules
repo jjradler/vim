@@ -10,12 +10,12 @@
 [submodule "bundle/awesome-vim-colorschemes"]
 	path = bundle/awesome-vim-colorschemes
     url = https://github.com/rafi/awesome-vim-colorschemes.git
-[submodule "fortran.vim"]
-    path = fortran.vim
-	url = https://github.com/adamqc/fortran.vim.git
 [submodule "bundle/fortran.vim"]
 	path = bundle/fortran.vim
 	url = https://github.com/adamqc/fortran.vim.git
 [submodule "bundle/python-syntax"]
 	path = bundle/python-syntax
 	url = https://github.com/vim-python/python-syntax.git
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
