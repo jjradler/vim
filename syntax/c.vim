@@ -1,1 +1,0 @@
-/home/jjradler/.vim/bundle/syntax/after/syntax/c.vim
