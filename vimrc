@@ -65,7 +65,7 @@ set t_Co=256                " enables 256-color mode
 " colorscheme chroma
 " colorscheme cobalt
 " colorscheme codedark
-" colorscheme cyberpunk
+" colorscheme cyberpunk                      "cmyk, has an 80's cyberpunk feel
 " colorscheme cytosimConfig
 " colorscheme dante
 " colorscheme dark_eyes                      "greens, browns, reds

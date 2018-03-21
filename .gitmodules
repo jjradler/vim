@@ -9,4 +9,10 @@
 	url = https://github.com/rafi/awesome-vim-colorschemes.git
 [submodule "bundle/awesome-vim-colorschemes"]
 	path = bundle/awesome-vim-colorschemes
-	url = https://github.com/rafi/awesome-vim-colorschemes.git
+    url = https://github.com/rafi/awesome-vim-colorschemes.git
+[submodule "fortran.vim"]
+    path = fortran.vim
+	url = https://github.com/adamqc/fortran.vim.git
+[submodule "bundle/fortran.vim"]
+	path = bundle/fortran.vim
+	url = https://github.com/adamqc/fortran.vim.git
