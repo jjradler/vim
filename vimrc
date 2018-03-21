@@ -37,7 +37,6 @@ set t_Co=256                " enables 256-color mode
 " colorscheme torte
 
 " Installed Colorschemes
-<<<<<<< HEAD
 " colorscheme 256_noir
 " colorscheme neuromancer
 " colorscheme matrix
@@ -46,7 +45,7 @@ set t_Co=256                " enables 256-color mode
 " colorscheme space-vim-dark
 " colorscheme phosphor
 " colorscheme shadesofamber
-colorscheme cyberpunk
+" colorscheme cyberpunk
 " colorscheme abstract.vim
 " colorscheme abstract.vim
 " colorscheme abstract.vim
@@ -55,7 +54,6 @@ colorscheme cyberpunk
 " colorscheme abstract.vim
 " colorscheme abstract.vim
 " colorscheme abstract.vim
-=======
 " colorscheme 256_noir                 "bad-ass red and black... kinda industrial
 " colorscheme OceanicNext
 " colorscheme OceanicNextLight
@@ -67,7 +65,6 @@ colorscheme cyberpunk
 " colorscheme angr
 " colorscheme apprentice
 " colorscheme archery
->>>>>>> c5e8d127779b97b9190a71b611d0817d8d3c03d7
 " colorscheme atom-dark-256	" atom editor 256 colors
 " colorscheme atom-dark     " atom editor
 " colorscheme atom
@@ -153,7 +150,7 @@ colorscheme cyberpunk
 " colorscheme orbital
 " colorscheme paramount
 " colorscheme parsec                        " Kinda ridiculously bright eyesore...
-" colorscheme phosphor                        " old school green-machine style
+ colorscheme phosphor                        " old school green-machine style
 " colorscheme pink-moon
 " colorscheme plumber-dark
 " colorscheme plumber-light
@@ -181,7 +178,7 @@ colorscheme cyberpunk
 " colorscheme solo_dark
 " colorscheme solo_light
 " colorscheme southernlights
- colorscheme space-vim-dark                     " Dark, purple scheme like space
+" colorscheme space-vim-dark                     " Dark, purple scheme like space
 " colorscheme stellarized_dark                   " high contrast, dark colors
 " colorscheme stellarized_light
 " colorscheme tender
