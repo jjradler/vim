@@ -113,7 +113,7 @@ set t_Co=256                " enables 256-color mode
 " colorscheme materialbox
 " colorscheme materialmonokai
 " colorscheme matrix                "gray comments, bright color markup
-" colorscheme meta5                    "high contrast code, low contrast comments
+colorscheme meta5                    "high contrast code, low contrast comments
 " colorscheme minimalist
 " colorscheme molokai
 " colorscheme molokayo
@@ -161,7 +161,7 @@ set t_Co=256                " enables 256-color mode
 " colorscheme solo_dark
 " colorscheme solo_light
 " colorscheme southernlights
- colorscheme space-vim-dark                     " Dark, purple scheme like space
+" colorscheme space-vim-dark                     " Dark, purple scheme like space
 " colorscheme stellarized_dark                   " high contrast, dark colors
 " colorscheme stellarized_light
 " colorscheme tender
