@@ -37,23 +37,6 @@ set t_Co=256                " enables 256-color mode
 " colorscheme torte
 
 " Installed Colorschemes
-" colorscheme 256_noir
-" colorscheme neuromancer
-" colorscheme matrix
-" colorscheme eva01
-" colorscheme southernlights
-" colorscheme space-vim-dark
-" colorscheme phosphor
-" colorscheme shadesofamber
-" colorscheme cyberpunk
-" colorscheme abstract.vim
-" colorscheme abstract.vim
-" colorscheme abstract.vim
-" colorscheme abstract.vim
-" colorscheme abstract.vim
-" colorscheme abstract.vim
-" colorscheme abstract.vim
-" colorscheme abstract.vim
 " colorscheme 256_noir                 "bad-ass red and black... kinda industrial
 " colorscheme OceanicNext
 " colorscheme OceanicNextLight
@@ -150,7 +133,7 @@ colorscheme meta5                    "high contrast code, low contrast comments
 " colorscheme orbital
 " colorscheme paramount
 " colorscheme parsec                        " Kinda ridiculously bright eyesore...
- colorscheme phosphor                        " old school green-machine style
+" colorscheme phosphor                        " old school green-machine style
 " colorscheme pink-moon
 " colorscheme plumber-dark
 " colorscheme plumber-light

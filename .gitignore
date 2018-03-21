@@ -9,7 +9,7 @@
 ######################
 *.log
 .netrwhist
-viminfo
+#viminfo
 
 # OS generated files #
 ######################
