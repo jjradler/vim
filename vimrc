@@ -244,8 +244,8 @@ nnoremap ^ <nop>
 
 " }}}
 
-" Section Powerline {{{
-
+" Section Airline {{{
+set laststatus=2
 " }}}
 
 " Section Startup Config {{{
