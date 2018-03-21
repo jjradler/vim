@@ -12,8 +12,9 @@ call pathogen#helptags()
 
 " Section Colors {{{
 " Requires loading a colors package containing most of these
-filetype plugin on	        " identify filetype
+filetype plugin indent on	        " identify filetype
 syntax enable	                " sets syntax markup
+" set runtimepath="$HOME/.vim"
 set t_Co=256                " enables 256-color mode
 
 " Included Colorschemes
@@ -65,7 +66,7 @@ set t_Co=256                " enables 256-color mode
 " colorscheme chroma
 " colorscheme cobalt
 " colorscheme codedark
- colorscheme cyberpunk                      "cmyk, has an 80's cyberpunk feel
+" colorscheme cyberpunk                      "cmyk, has an 80's cyberpunk feel
 " colorscheme cytosimConfig
 " colorscheme dante
 " colorscheme dark_eyes                      "greens, browns, reds
@@ -113,7 +114,7 @@ set t_Co=256                " enables 256-color mode
 " colorscheme materialbox
 " colorscheme materialmonokai
 " colorscheme matrix                "gray comments, bright color markup
-" colorscheme meta5                    "high contrast code, low contrast comments
+colorscheme meta5                    "high contrast code, low contrast comments
 " colorscheme minimalist
 " colorscheme molokai
 " colorscheme molokayo
