@@ -12,8 +12,9 @@ call pathogen#helptags()
 
 " Section Colors {{{
 " Requires loading a colors package containing most of these
-filetype plugin on	        " identify filetype
+filetype plugin indent on	        " identify filetype
 syntax enable	                " sets syntax markup
+" set runtimepath="$HOME/.vim"
 set t_Co=256                " enables 256-color mode
 
 " Included Colorschemes
