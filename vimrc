@@ -12,7 +12,6 @@ call pathogen#helptags()
 
 " Section Syntax Options {{{
 
-
 " }}}
 
 " Section Colors {{{
@@ -286,6 +285,7 @@ set writebackup
 
 " Section Custom Functions {{{
 autocmd BufWritePre * :%s/\s\+$//e  " strips trailing whitespace upon save.
+
 " }}}
 
 " vim:foldmethod=marker:foldlevel=0
