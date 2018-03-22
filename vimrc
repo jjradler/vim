@@ -1,7 +1,7 @@
 " Author:	Joseph J. Radler
 " Description:  Customized .vimrc with options commented out
 " Created:	01/25/2018
-" Appended:	03/17/2018	
+" Appended:	03/17/2018
 
 " Section Pathogen {{{
 execute pathogen#infect()
@@ -11,30 +11,17 @@ call pathogen#helptags()
 " }}}
 
 " Section Syntax Options {{{
+
+
+" }}}
+
+" Section Colors {{{
 " Requires loading a colors package containing most of these
 filetype plugin indent on	        " identify filetype
 syntax enable	                " sets syntax markup
 " set runtimepath="$HOME/.vim"
 
 " Python Syntax Options
-"let g:python_version_2=0                        
-"let b:python_version_2=0                       
-"let g:python_highlight_builtins=1              
-"let g:python_highlight_builtin_objs=1           
-"let g:python_highlight_builtin_funcs=0          
-"let g:python_highlight_builtin_funcs_kwarg=1    
-"let g:python_highlight_exceptions=1             
-"let g:python_highlight_string_formatting=1         " Highlight `%` of string formatting     
-"let g:python_highlight_string_format=1          
-"let g:python_highlight_string_templates=1       
-"let g:python_highlight_indent_errors=1             " Highlight indentation errors
-"let g:python_highlight_space_errors=1              " Highlight trailing spaces
-"let g:python_highlight_doctests=0                   
-"let g:python_highlight_class_vars=1                " Highlight `self` and `cls`
-"let g:python_highlight_operators=1                 " Highlight all operators              
-let g:python_highlight_all=1                    
-"let g:python_highlight_file_headers_as_comments=1  " Highlight shebang and coding headers as comments
-let g:python_slow_sync=1        " disable for slow machines                        
 
 " C Syntax Options
 
@@ -216,7 +203,7 @@ colorscheme meta5                    "high contrast code, low contrast comments
 
 " Section Misc {{{
 set nocompatible            " use the OS clipboard
-set clipboard=unnamed         
+set clipboard=unnamed
 set wildmenu
 
 " }}}
@@ -276,10 +263,23 @@ nnoremap ^ <nop>
 " }}}
 
 " Section Airline {{{
+let g:airline#extensions#tabline#enabled=1
 set laststatus=2
 " }}}
 
-" Section Startup Config {{{
+" Section tmux Settings {{{
+
+" }}}
+
+" Section Syntastic Settings {{{
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 0
+let g:syntastic_check_on_wq = 0
 
 " }}}
 
@@ -293,12 +293,12 @@ set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set backupskip=/tmp/*,/private/tmp/*
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set writebackup
-" set history                 " keep 50 lines of command line history      
+" set history                 " keep 50 lines of command line history
 "
 " }}}
 
 " Section Custom Functions {{{
-
+autocmd BufWritePre * :%s/\s\+$//e  " strips trailing whitespace upon save.
 " }}}
 
 " vim:foldmethod=marker:foldlevel=0
