@@ -1,12 +1,17 @@
 " Author:	Joseph J. Radler
 " Description:  Customized .vimrc with options commented out
 " Created:	01/25/2018
-" Appended:	03/17/2018	
+" Appended:	03/17/2018
 
 " Section Pathogen {{{
 execute pathogen#infect()
 " call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
+
+" }}}
+
+" Section Syntax Options {{{
+
 
 " }}}
 
@@ -185,7 +190,7 @@ colorscheme meta5                    "high contrast code, low contrast comments
 
 " Section Misc {{{
 set nocompatible            " use the OS clipboard
-set clipboard=unnamed         
+set clipboard=unnamed
 set wildmenu
 
 " }}}
@@ -260,7 +265,7 @@ set statusline+=%*
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
 
 " }}}
@@ -275,12 +280,12 @@ set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set backupskip=/tmp/*,/private/tmp/*
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set writebackup
-" set history                 " keep 50 lines of command line history      
+" set history                 " keep 50 lines of command line history
 "
 " }}}
 
 " Section Custom Functions {{{
-
+autocmd BufWritePre * :%s/\s\+$//e  " strips trailing whitespace upon save.
 " }}}
 
 " vim:foldmethod=marker:foldlevel=0
