@@ -10,11 +10,42 @@ call pathogen#helptags()
 
 " }}}
 
-" Section Colors {{{
+" Section Syntax Options {{{
 " Requires loading a colors package containing most of these
 filetype plugin indent on	        " identify filetype
 syntax enable	                " sets syntax markup
 " set runtimepath="$HOME/.vim"
+
+" Python Syntax Options
+"let g:python_version_2=0                        
+"let b:python_version_2=0                       
+"let g:python_highlight_builtins=1              
+"let g:python_highlight_builtin_objs=1           
+"let g:python_highlight_builtin_funcs=0          
+"let g:python_highlight_builtin_funcs_kwarg=1    
+"let g:python_highlight_exceptions=1             
+"let g:python_highlight_string_formatting=1         " Highlight `%` of string formatting     
+"let g:python_highlight_string_format=1          
+"let g:python_highlight_string_templates=1       
+"let g:python_highlight_indent_errors=1             " Highlight indentation errors
+"let g:python_highlight_space_errors=1              " Highlight trailing spaces
+"let g:python_highlight_doctests=0                   
+"let g:python_highlight_class_vars=1                " Highlight `self` and `cls`
+"let g:python_highlight_operators=1                 " Highlight all operators              
+let g:python_highlight_all=1                    
+"let g:python_highlight_file_headers_as_comments=1  " Highlight shebang and coding headers as comments
+let g:python_slow_sync=1        " disable for slow machines                        
+
+" C Syntax Options
+
+" C++ Syntax Options
+
+" FORTRAN Syntax Options
+
+" }}}
+
+" Section Colors {{{
+" Requires loading a colors package containing most of these
 set t_Co=256                " enables 256-color mode
 
 " Included Colorschemes
