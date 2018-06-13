@@ -5,7 +5,6 @@ Installation:
 Create symlinks:
 
     ln -s ~/.vim/vimrc ~/.vimrc
-    ln -s ~/.vim/viminfo ~/.viminfo
 
 Switch to the `~/.vim` directory and fetch submodules:
 

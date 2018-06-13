@@ -11,10 +11,6 @@ call pathogen#helptags()
 " }}}
 
 " Section Syntax Options {{{
-
-" }}}
-
-" Section Colors {{{
 " Requires loading a colors package containing most of these
 filetype plugin indent on	        " identify filetype
 syntax enable	                " sets syntax markup
@@ -179,20 +175,20 @@ colorscheme meta5                    "high contrast code, low contrast comments
 " colorscheme solo_dark
 " colorscheme solo_light
 " colorscheme southernlights
-" colorscheme space-vim-dark                     " Dark, purple scheme like space
-" colorscheme stellarized_dark                   " high contrast, dark colors
+" colorscheme space-vim-dark         " Dark, purple scheme like space (.py)
+" colorscheme stellarized_dark       " high contrast, dark colors (.py)
 " colorscheme stellarized_light
 " colorscheme tender
 " colorscheme tenderplus
 " colorscheme termschool
 " colorscheme thaumaturge
-" colorscheme twilight256                        " grays, bright colors
+" colorscheme twilight256                " grays, bright colors (.py)
 " colorscheme two-firewatch
 " colorscheme twofirewatch
 " colorscheme typescript
 " colorscheme vim-material
 " colorscheme violet
-" colorscheme wombat256mod
+" colorscheme wombat256mod                " good for python, colorful, pale
 " colorscheme xml
 " colorscheme yellow-moon
 " colorscheme zenburn
@@ -277,8 +273,38 @@ set statusline+=%*
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
+let g:syntastic_loc_list_height=5
 let g:syntastic_check_on_open = 0
-let g:syntastic_check_on_wq = 0
+let g:syntastic_check_on_wq = 1
+
+" }}}
+
+" Section python-mode Settings {{{
+" let g:pymode_python = 'python3'
+
+" }}}
+
+" Section haskell-vim Settings {{{
+" let g:haskell_classic_highlighting = 1    " to enable more traditional Haskell highlighting
+" Highlighting settings:
+let g:haskell_enable_quantification = 1     " to enable highlighting of `forall`
+let g:haskell_enable_recursivedo = 1        " to enable hgihlightingo of `mdo` and `rec`
+let g:haskell_enable_arrowsyntax = 1        " to enable highlighting of `proc`
+let g:haskell_enable_pattern_synonyms = 1   " to enable highlighting of `pattern`
+let g:haskell_enable_typeroles = 1          " to enable highlighting of type roles
+let g:haskell_enable_static_pointers = 1    " to enable higlighing of `static`
+let g:haskell_backpack = 1                  " to enable highlighting of backpack keywords
+
+" Indentation Settings
+let g:haskell_indent_if = 3
+let g:haskell_indent_case = 2
+let g:haskell_indent_let = 4
+let g:haskell_indent_where = 6
+let g:haskell_indent_before_where = 2
+let g:haskell_indent_after_bare_where = 2
+let g:haskell_indent_do = 3
+let g:haskell_indent_in = 1
+let g:haskell_indent_guard = 2
 
 " }}}
 
