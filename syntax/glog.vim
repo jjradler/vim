@@ -56,3 +56,11 @@ highlight link logError Error
 " Normal termination
 syntax region logSuccess start=/^\sNormal\stermination/ end=/$/
 highlight link logSuccess Type
+
+" Useful Highlighted Keywords
+syntax match logLdotS /L.S=/
+highlight link logLdotS Keyword
+
+syntax match logConver /Converged/
+highlight link logConver Keyword
+

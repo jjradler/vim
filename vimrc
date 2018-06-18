@@ -65,7 +65,7 @@ set t_Co=256                " enables 256-color mode
 " colorscheme chroma
 " colorscheme cobalt
 " colorscheme codedark
- colorscheme cyberpunk                      "cmyk, has an 80's cyberpunk feel
+" colorscheme cyberpunk                      "cmyk, has an 80's cyberpunk feel
 " colorscheme cytosimConfig
 " colorscheme dante
 " colorscheme dark_eyes                      "greens, browns, reds
@@ -113,7 +113,7 @@ set t_Co=256                " enables 256-color mode
 " colorscheme materialbox
 " colorscheme materialmonokai
 " colorscheme matrix                "gray comments, bright color markup
-" colorscheme meta5                    "high contrast code, low contrast comments
+colorscheme meta5                    "high contrast code, low contrast comments
 " colorscheme minimalist
 " colorscheme molokai
 " colorscheme molokayo
@@ -192,7 +192,7 @@ set wildmenu
 " Section Spaces & Tabs {{{
 filetype indent on
 set tabstop=4               " sets the tab at 4 spaces
-" set softtabstop=2           " sets editing tabs to be 2 spaces for indent
+set softtabstop=2           " sets editing tabs to be 2 spaces for indent
 set expandtab               " sets tab to fill with whitespace
 
 " }}}
