@@ -1,6 +1,8 @@
-<<<<<<< HEAD
 # Compiled source #
 ###################
+*.pyc
+*.exe
+*.out
 
 # Packages #
 ############
@@ -9,36 +11,16 @@
 ######################
 *.log
 .netrwhist
-#viminfo
-
-# OS generated files #
-######################
-=======
-# .gitignore
-# Compiled Source #
-###################
-
-
-# Packages #
-############
-
-# Logs and Databases #
-######################
-*.log
-*.netrwhist
 viminfo
 .viminfo
 
 # OS Generated Files #
->>>>>>> 4e094a1db12542dd7c8052f4e70ceeb84dea5db8
+######################
 .DS_Store
 .DS_Store?
 ._*
 .Spotlight-V100
 .Trashes
-<<<<<<< HEAD
 ehthumbs.db
-=======
 ethumbs.db
->>>>>>> 4e094a1db12542dd7c8052f4e70ceeb84dea5db8
 Thumbs.db
