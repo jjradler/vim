@@ -1,1 +1,0 @@
-/usr/lusers/jjradler/.vimrc
