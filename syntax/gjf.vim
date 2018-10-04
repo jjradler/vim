@@ -21,14 +21,22 @@ syntax match gjfLink0 /%\w\+/
 highlight link gjfLink0 Identifier
 
 " Route line
-syntax region gjfRoute start=/#/ end=/^$/ contains=gjfComment
+syntax region gjfRoute start=/#/ end=/p/ contains=gjfComment
 highlight link gjfRoute Keyword
 
+<<<<<<< HEAD
+syntax keyword  routeIdentifier read fragment scf check allcheck conver maxcycles 
+highlight link routeIdentifier Identifier
+
+syntax keyword  routeFunction gen guess geom basis 
+highlight link routeFunction Function 
+=======
 syntax match routeIdentifier /read/ /Read/ /fragment/ /Fragment/ /geom/ /Geom/ /SCF/ /scf/
 highlight link routeIdentifier Identifier
 
 syntax match routeFunction /gen/ /Guess/ /guess/ /Geom/ /geom/ /Conver/ /conver/ /maxcycles/ /MaxCycles/
 highlight link routeFunction Function
+>>>>>>> 44dd70a78649a6e7dedda57111df3c00f74aa78b
 
 " Operators
 syntax match logOperator /=/

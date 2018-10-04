@@ -206,7 +206,7 @@ set wildmenu
 " Section Spaces & Tabs {{{
 filetype indent on
 set tabstop=4               " sets the tab at 4 spaces
-" set softtabstop=2           " sets editing tabs to be 2 spaces for indent
+set softtabstop=2           " sets editing tabs to be 2 spaces for indent
 set expandtab               " sets tab to fill with whitespace
 
 " }}}

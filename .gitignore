@@ -1,6 +1,8 @@
+# .gitignore
 # Compiled source #
 ###################
 *.pyc
+*.out
 *.exe
 *.out
 
@@ -9,8 +11,8 @@
 
 # Logs and databases #
 ######################
-*.log
 .netrwhist
+*.netrwhist
 viminfo
 .viminfo
 
