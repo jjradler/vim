@@ -203,6 +203,18 @@ set wildmenu
 
 " }}}
 
+" Section Neovim Options {{{
+" set termguicolors
+" hi Cursor guifg=yellow guibg=black
+
+" if has("nvim")
+"   " Neovim
+" else
+"   " Traditional Vim
+" endif
+
+" }}}
+
 " Section Spaces & Tabs {{{
 filetype indent on
 set tabstop=4               " sets the tab at 4 spaces
@@ -280,7 +292,7 @@ let g:syntastic_check_on_wq = 1
 " }}}
 
 " Section python-mode Settings {{{
-" let g:pymode_python = 'python3'
+let g:pymode_python = 'python3'
 
 " }}}
 
