@@ -6,7 +6,7 @@
 " Section Pathogen {{{
 execute pathogen#infect()
 " call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+" call pathogen#helptags()
 
 " }}}
 
@@ -14,7 +14,7 @@ call pathogen#helptags()
 " Requires loading a colors package containing most of these
 filetype plugin indent on	        " identify filetype
 syntax enable	                " sets syntax markup
-" set runtimepath="$HOME/.vim"
+" set runtimepath="$HOME/vim"
 
 " Python Syntax Options
 
