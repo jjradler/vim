@@ -24,11 +24,25 @@ highlight link gjfLink0 Identifier
 syntax region gjfRoute start=/#/ end=/p/ contains=gjfComment
 highlight link gjfRoute Keyword
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 0f52dba642093162499c1cc88221d361e0bcee82
 syntax keyword  routeIdentifier read fragment scf check allcheck conver maxcycles 
 highlight link routeIdentifier Identifier
 
 syntax keyword  routeFunction gen guess geom basis 
 highlight link routeFunction Function 
+<<<<<<< HEAD
+=======
+=======
+syntax match routeIdentifier /read/ /Read/ /fragment/ /Fragment/ /geom/ /Geom/ /SCF/ /scf/
+highlight link routeIdentifier Identifier
+
+syntax match routeFunction /gen/ /Guess/ /guess/ /Geom/ /geom/ /Conver/ /conver/ /maxcycles/ /MaxCycles/
+highlight link routeFunction Function
+>>>>>>> 44dd70a78649a6e7dedda57111df3c00f74aa78b
+>>>>>>> 0f52dba642093162499c1cc88221d361e0bcee82
 
 " Operators
 syntax match logOperator /=/

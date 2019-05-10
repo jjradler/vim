@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "za Author:	Joseph J. Radler
 " Description:  Customized .vimrc with options commented out
 " Created:	01/25/2018
@@ -302,3 +303,8 @@ autocmd BufWritePre * :%s/\s\+$//e  " strips trailing whitespace upon save.
 " }}}
 
 " vim:foldmethod=marker:foldlevel=0
+=======
+set runtimepath^=~/.vim runtimepath+=~/.vim/after
+let &packpath = &runtimepath
+source ~/.vimrc
+>>>>>>> 0f52dba642093162499c1cc88221d361e0bcee82

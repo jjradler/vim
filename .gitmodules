@@ -22,3 +22,6 @@
 [submodule "bundle/python-syntax"]
 	path = bundle/python-syntax
 	url = https://github.com/kh3phr3n/python-syntax.git
+[submodule "bundle/haskell-vim"]
+	path = bundle/haskell-vim
+	url = https://github.com/neovimhaskell/haskell-vim.git
