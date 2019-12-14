@@ -12,9 +12,9 @@ execute pathogen#infect()
 
 " Section Syntax Options {{{
 " Requires loading a colors package containing most of these
-filetype plugin indent on	        " identify filetype
+filetype plugin on	        " identify filetype
 syntax on	                " sets syntax markup
-" set runtimepath="$HOME/vim"
+" set runtimepath="$HOME/.vim"
 
 " Python Syntax Options
 
