@@ -5,16 +5,16 @@
 
 " Section Pathogen {{{
 execute pathogen#infect()
-" call pathogen#runtime_append_all_bundles()
-" call pathogen#helptags()
 
 " }}}
 
 " Section Syntax Options {{{
 " Requires loading a colors package containing most of these
-filetype plugin on	        " identify filetype
-syntax on	                " sets syntax markup
-" set runtimepath="$HOME/.vim"
+
+filetype plugin indent on	        " identify filetype
+syntax on
+
+" sets syntax markup
 
 " Python Syntax Options
 
@@ -203,7 +203,7 @@ set wildmenu
 
 " }}}
 
-" Section Neovim Options {{{
+" Sectizon Neovim Options {{{
 " set termguicolors
 " hi Cursor guifg=yellow guibg=black
 
@@ -294,7 +294,7 @@ let g:syntastic_check_on_wq = 1
 " Section python-mode Settings {{{
 let g:pymode_python = 'python3'
 
-" }}}
+" }}}z
 
 " Section haskell-vim Settings {{{
 " let g:haskell_classic_highlighting = 1    " to enable more traditional Haskell highlighting
