@@ -2,7 +2,6 @@
 """
 Still it isn't updating the damned syntax...
 """
-import numpy as np
 
 # This hasn't worked yet... wtf...
 

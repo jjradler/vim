@@ -12,7 +12,7 @@ execute pathogen#infect()
 " Requires loading a colors package containing most of these
 
 filetype plugin indent on	        " identify filetype
-syntax on
+syntax enable
 
 " sets syntax markup
 
