@@ -22,8 +22,6 @@ augroup filetypedetect
 au BufNewFile,BufRead *.log	    setf glog
 augroup END
 
-augroup filetypedetect
-au BufNewFile,BufRead *.py      setf python-syntax
-augroup END
-
-
+"augroup filetypedetect
+"au BufNewFile,BufRead *.py      setf python-syntax
+"augroup END

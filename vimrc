@@ -292,7 +292,7 @@ let g:syntastic_check_on_wq = 1
 " }}}
 
 " Section python-mode Settings {{{
-let g:pymode_python = 'python3'
+" let g:pymode_python = 'python3'
 
 " }}}z
 
